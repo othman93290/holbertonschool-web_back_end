@@ -1,9 +1,2 @@
-// Connexion à la base de données
-db = connect("mongodb://" + db.host + ":" + db.port + "/" + db.name);
-
-// Mise à jour des documents dans la collection 'school'
-db.school.update(
-    { name: "Holberton school" }, // Critère de sélection
-    { $set: { address: "972 Mission street" } }, // Modification à appliquer
-    { multi: true } // Appliquer la modification à tous les documents correspondants
-);
+// Update all matched
+db.school.update({name: 'Holberton school'}, {$set: {address: '972 Mission street'}}, {multi: true})
