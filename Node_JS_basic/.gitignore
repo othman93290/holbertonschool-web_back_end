@@ -1,0 +1,80 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+out/
+.cache/
+.next/
+.svelte-kit/
+tmp/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Test outputs
+coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+~$*
+
+# Specific language files
+*.class        # Java bytecode
+*.pyc          # Python bytecode
+*.pyo
+*.pyd
+*.so           # Python shared objects
+
+# Git metadata and backups
+*.lock
+*.bak
+*.stackdump
+*.pid
+*.seed
+
+# Optional npm cache files
+.npm/
+
+# Optional REPL history
+.node_repl_history
+
+# Optional log files
+*.log
+
+# Archives and compressed files
+*.zip
+*.tar.gz
+*.7z
+
+# Specific files for your project
+.env.development.local
+.env.production.local
+logs/
